@@ -13,6 +13,7 @@ const Assets = {
 	C: a('c.svg'),
 	Cpp: a('cpp.svg'),
 	Celery: a('celery.svg'),
+	Fazz: a('fazz1.png'),
 	Django: a('django.svg'),
 	FastApi: a('fastapi'),
 	Flask: a('flask.svg'),

@@ -3,28 +3,47 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
+		degree: 'Full Stack Web Developer',
 		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
+		location: '',
+		logo: Assets.Fazz,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'Fazztrack',
+		period: { from: new Date(2021, 2, 1), to: new Date(2021, 5, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		subjects: [
+			'Soft Skill',
+			'React JS',
+			'JS',
+			'HTML',
+			'CSS',
+			'Next JS',
+			'Express JS',
+			'MySql',
+			'Full Stack'
+		]
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'Vocational High School',
 		description: '',
-		location: 'USA',
+		location: 'Bogor',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'SMKN 3 Bogor',
+		period: { from: new Date(2017, 0, 1), to: new Date(2020, 0, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		slug: 'vocational',
+		subjects: [
+			'Software Development',
+			'Network Management',
+			'Network Security',
+			'Operating Systems',
+			'Web Programming',
+			'Database Management',
+			'Microcontroller Programming',
+			'Troubleshooting and Maintenance'
+		]
 	}
 ];
 
