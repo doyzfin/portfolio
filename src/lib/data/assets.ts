@@ -23,7 +23,7 @@ const Assets = {
 	Kafka: a('kafka.svg'),
 	Neo4j: a('neo4j.svg'),
 	Nginx: a('nginx.svg'),
-	Nextjs: a('nextjs.svg'),
+	Nextjs: a('cover-nextjs.jpg'),
 	Ipb: a('ipb.svg'),
 	Majapahit: a('majapahit.svg'),
 	Kopnus: a('kopnus.jpg'),
