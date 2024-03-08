@@ -3,39 +3,38 @@ import { getSkills } from './skills';
 
 export const title = 'Home';
 
-export const name = 'Name';
+export const name = 'Muhammad';
 
-export const lastName = 'LastName';
+export const lastName = 'Alfin';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	'As a dedicated front-end developer, I bring a fusion of creativity and technical expertise to web design. With a fervent enthusiasm for crafting visually stunning and user-friendly interfaces, I thrive on the ever-evolving landscape of front-end technologies.';
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
+		link: 'https://www.linkedin.com/in/alfin-12/'
 	},
 	{
 		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
-	},
-	{
-		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
+		link: 'https://twitter.com/allfinefin'
 	},
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
-	},
-	{
-		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
-	},
-	{
-		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
+		link: 'alfinramadhan97@gmail.com'
 	}
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
+export const skills = getSkills(
+	'js',
+	'css',
+	'html',
+	'reactjs',
+	'sass',
+	'svelte',
+	'ts',
+	'express',
+	'tailwind',
+	'nextjs'
+);
