@@ -5,7 +5,7 @@ export const items: Array<Education> = [
 	{
 		degree: 'Full Stack Web Developer',
 		description: '',
-		location: '',
+		location: 'Online',
 		logo: Assets.Fazz,
 		name: '',
 		organization: 'Fazztrack',
