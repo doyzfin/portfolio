@@ -108,7 +108,7 @@ export const items = [
 	}),
 	defineSkill({
 		slug: 'nextjs',
-		color: 'green',
+		color: 'white',
 		description: 'lorem',
 		logo: Assets.Nextjs,
 		name: 'Next JS',
@@ -129,6 +129,22 @@ export const items = [
 		logo: Assets.Mysql,
 		name: 'MySql',
 		category: 'db'
+	}),
+	defineSkill({
+		slug: 'wordpress',
+		color: 'turquoise',
+		description: 'lorem',
+		logo: Assets.Wordpress,
+		name: 'WordPress',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'php',
+		color: 'purple',
+		description: 'lorem',
+		logo: Assets.Php,
+		name: 'PHP',
+		category: 'pro-lang'
 	})
 ] as const;
 

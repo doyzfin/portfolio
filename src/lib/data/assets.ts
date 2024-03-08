@@ -14,6 +14,8 @@ const Assets = {
 	Cpp: a('cpp.svg'),
 	Celery: a('celery.svg'),
 	Fazz: a('fazz1.png'),
+	Wordpress: a('wordpress.svg'),
+	Php: a('php.svg'),
 	Django: a('django.svg'),
 	FastApi: a('fastapi'),
 	Flask: a('flask.svg'),
