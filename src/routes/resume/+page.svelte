@@ -8,7 +8,7 @@
 <CommonPage {title}>
 	<div class="resume">
 		{#if data}
-			<a href={data} download>
+			<a href={data} download target="_blank">
 				<Chip size={'1.25em'}>Download</Chip>
 			</a>
 		{:else}
