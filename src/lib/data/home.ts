@@ -11,7 +11,7 @@ export const description =
 	'As a dedicated front-end developer, I bring a fusion of creativity and technical expertise to web design. With a fervent enthusiasm for crafting visually stunning and user-friendly interfaces, I thrive on the ever-evolving landscape of front-end technologies.';
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/doyzfin' },
 	{
 		platform: Platform.Linkedin,
 		link: 'https://www.linkedin.com/in/alfin-12/'
