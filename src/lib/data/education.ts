@@ -3,6 +3,18 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
+		degree: 'Bachelor of Computer Science ',
+		description: '',
+		location: 'Bandung',
+		logo: Assets.telkom,
+		name: 'Telkom University',
+		organization: 'Telkom University',
+		period: { from: new Date(2024, 9, 1), to: new Date(2028, 9, 1) },
+		shortDescription: '',
+		slug: 'univ-edu-item',
+		subjects: []
+	},
+	{
 		degree: 'Full Stack Web Developer',
 		description: '',
 		location: 'Online',
@@ -28,7 +40,7 @@ export const items: Array<Education> = [
 		degree: 'Vocational High School',
 		description: '',
 		location: 'Bogor',
-		logo: Assets.Unknown,
+		logo: Assets.smk,
 		name: '',
 		organization: 'SMKN 3 Bogor',
 		period: { from: new Date(2017, 0, 1), to: new Date(2020, 0, 1) },
